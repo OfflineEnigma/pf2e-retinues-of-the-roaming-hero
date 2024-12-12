@@ -1,0 +1,110 @@
+{
+  "id": "pf2e-retinues-of-the-roaming-hero",
+  "title": "PF2e - Retinues of the Roaming Hero",
+  "version": "#{VERSION}#",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "pf2e-soldiers-of-the-immortal-war",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "firebrands",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "packFolders": [
+    {
+      "name": "OfflineEnigma's Homebrew",
+      "sorting": "a",
+      "packs": [],
+      "folders": [
+        {
+          "name": "Retinues of the Roaming Hero",
+          "sorting": "a",
+          "packs": [
+            "retainers",
+            "feats",
+            "abilities",
+			"rules"
+          ],
+          "folders": [],
+          "color": null
+        }
+      ],
+      "color": null
+    }
+  ],
+  "description": "A foundry module containing everything from the Retinues of the Roaming Hero supplement.",
+  "authors": [
+    {
+      "name": "Michael Hosp / OfflineEnigma",
+      "email": "enigmahomebrew@gmail.com",
+      "discord": "offlineenigma",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "retainers",
+      "label": "Retainers",
+      "path": "packs/retainers",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Feats",
+      "path": "packs/feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "abilities",
+      "label": "Abilities",
+      "path": "packs/abilities",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "rules",
+      "label": "Rules",
+      "path": "packs/rules",
+      "type": "JournalEntry",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#"
+}
