@@ -1,5 +1,3 @@
-2024/12/12-19:13:42.067 1afc Recovering log #27
-2024/12/12-19:13:42.068 1afc Level-0 table #29: started
-2024/12/12-19:13:42.074 1afc Level-0 table #29: 105944 bytes OK
-2024/12/12-19:13:42.081 1afc Delete type=0 #27
-2024/12/12-19:13:42.081 1afc Delete type=3 #26
+2025/04/19-22:46:16.454 32c8 Recovering log #130
+2025/04/19-22:46:16.460 32c8 Delete type=0 #130
+2025/04/19-22:46:16.460 32c8 Delete type=3 #129
